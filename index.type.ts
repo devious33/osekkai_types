@@ -1,4 +1,4 @@
-export type Player = {
+export type D_Player = {
     id: number;
     account: string;
     password: string;
@@ -8,4 +8,11 @@ export type Player = {
     readonly updated_at: Date;
     deleted_at: Date;
   };
+
+  export type Player = {
+    id: number;
+    camera_id: string;
+    color_code: string;
+  };
+  
   
