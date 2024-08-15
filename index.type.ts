@@ -11,8 +11,12 @@ export type D_Player = {
 
   export type Player = {
     id: number;
-    camera_id: string;
+    game_id: number;
+    name: string;
+    sound_effect_id: number;
     color_code: string;
+    camera_id: number;
+    hits_count: number;
   };
   
   
