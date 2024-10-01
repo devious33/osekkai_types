@@ -17,6 +17,15 @@ export type D_Player = {
     color_code: string;
     camera_id: number;
     hits_count: number;
+    M_Sound_Effect: SoundEffect;
   };
+  
+  export type SoundEffect = {
+    id: number;
+    kanji: string;
+    katakana: string;
+    english: string;
+    src: string;
+  }
   
   
